@@ -6,7 +6,7 @@ body {
   background: white;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 .grid {
@@ -16,19 +16,40 @@ body {
 
 .grid-2columns {
   grid-template-columns: 1fr 1fr;
-  
 }
-.grid-3colums-first-narrow {
+.grid-3columns-first-narrow {
   grid-template-columns: 2fr 2fr 2fr;
-  
+}
+.grid-3columns{
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .image-responsive {
   max-width: 100%;
+  aspect-ratio: 16/9;
 }
+.text-center{
+    text-align: center;
+}
+.btn{
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 16px;
+    background: #272044;
+    text-decoration: none;
+}
+
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 60px 20px;
+  padding: 100px;
+}
+section.secondary {
+  background-color: #f8f8f8;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -96,6 +117,29 @@ main p {
   line-height: 1.5;
   opacity: 0.7;
 }
+.card{
+    background:white;
+    margin: 30px 0;
+}
+.card-body{
+    padding: 30px;
+}
+.card-footer{
+    padding:0 30px 30px;
+}
+ main h4{
+    font-weight:700;
+    font-size:24px;
+    line-height:1;
+    margin:0;
+}
+main h5{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.5;
+    margin:0;
+}
+
 footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url("/images/three-zebras.jpg");
@@ -143,13 +187,11 @@ footer a {
   header h3 {
     font-size: 12px;
   }
-  .grid{
+  .grid {
     grid-template-columns: 1fr;
-    grid-gap:32px;
+    grid-gap: 32px;
   }
-  section{
-    
-        padding:30px 10px;
-    }
+  section {
+    padding: 30px 10px;
   }
-
+}
