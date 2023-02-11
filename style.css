@@ -24,8 +24,15 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
 }
 .image-responsive {
-  max-width: 100%;
-  aspect-ratio: 16/9;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.card-header.grid{
+grid-gap:0;
+}
+.embed{
+    width:100%;
+    aspect-ratio: 1/1;
 }
 .text-center{
     text-align: center;
@@ -193,5 +200,11 @@ footer a {
   }
   section {
     padding: 30px 10px;
+  }
+  .card-header img{
+    display:none;
+  }
+  .embed{
+    aspect-ratio: 16/9;
   }
 }
