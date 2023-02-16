@@ -204,13 +204,13 @@ footer a {
     grid-gap: 32px;
   }
   section {
-    padding: 30px 10px;
+    padding: 30px ;
   }
   .card-header img{
     display:none;
   }
   .embed{
-    aspect-ratio: 16/9;
+    aspect-ratio: 16 / 9;
   }
  
  
